@@ -102,6 +102,7 @@ Epusdt 已完成第三方安全审计。
 
 | 教程 | 说明 |
 |------|------|
+| [与 new-api 同机部署](DEPLOY_WITH_NEW_API.md) | 本仓库生产 Compose、独立域名、TRON-USDT 收款及回调验收 |
 | [仓库内：epctl 安装脚本](wiki/EPCTL.md) | Linux 二进制安装、升级、状态查看与 Docker 验收脚本 |
 | [Docker 部署](https://epusdt.com/guide/installation/docker) | 推荐方式，一键启动 |
 | [宝塔面板部署](https://epusdt.com/guide/installation/aapanel) | 适合宝塔用户 |
