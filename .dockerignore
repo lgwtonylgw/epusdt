@@ -1,0 +1,6 @@
+.git
+.env
+env
+src/.env
+data
+src/runtime

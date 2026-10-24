@@ -1,0 +1,12 @@
+services:
+  epusdt:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: epusdt:local
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./.env:/app/.env:ro
+      - ./data:/app/data
